@@ -84,8 +84,16 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 				
-			
+	  		<plugin>
+				<groupId>org.flywaydb</groupId>
+        			<artifactId>flyway-maven-plugin</artifactId>
+				<version>6.3.2</version>			
 			<plugin>
+				
+				<groupId>org.flywaydb</groupId>
+        			<artifactId>flyway-maven-plugin</artifactId>
+				<version>6.3.2</version>
+				
 				<configuration>
 					<baselineOnMigrate>true</baselineOnMigrate>
 					<url>jdbc:mysql://13.127.203.108:3306</url>
