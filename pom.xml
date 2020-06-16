@@ -56,6 +56,13 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.2</version>
 		</dependency>
+		
+		<dependency>
+			<groupID>org.flywaydb</groupID>
+			<artifactID>flyway.core</artifactId>
+			<version?6.4.4></version>
+		</dependency>		
+		
 		<dependency>
 			<groupId>org.codehaus.mojo</groupId>
 			<artifactId>sonar-maven-plugin</artifactId>
@@ -85,6 +92,19 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			<plugin>
+				<configuration>
+					<baselineOnMigrate>true</baselineOnMigrate>
+					<url>jdbc:mysql://13.127.203.108:3306</url>
+					<user>inguser6</user>
+					<password>H@ckath0n</password>
+
+					<schemas>
+						<schema>medi</schema>
+					</schemas>	
+				</configuration>
+			</plugin>			
 			
 			<plugin>
 				<configuration>
