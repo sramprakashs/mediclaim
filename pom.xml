@@ -64,11 +64,6 @@
 			<artifactId>sonar-maven-plugin</artifactId>
 			<version>3.4.0.905</version>
 		</dependency>
-		<dependency>
-<groupID>org.flywaydb</groupID>
-<artifactID>flyway.core</artifactId>
-<version?6.4.4></version>
-</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
