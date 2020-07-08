@@ -96,7 +96,7 @@
 				
 				<configuration>
 					<baselineOnMigrate>true</baselineOnMigrate>
-					<url>jdbc:mysql://13.232.9.37:3306</url>
+					<url>jdbc:mysql://13.233.119.13:3306</url>
 					<user>flyway1</user>
 					<password>H@ckath0n</password> 
 
